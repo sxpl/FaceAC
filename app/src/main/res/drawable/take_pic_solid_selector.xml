@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <stroke
+        android:width="2dip"
+        android:color="#ffffff" />
+    <corners android:radius="10dip" />    <!--    渐变     <gradient android:startColor="#ff0000"  android:endColor="#00ffff"/>    -->
+    <!-- 固定色：填充的颜色		渐变色和固定色是互斥的，固定色会覆盖渐变色-->
+    <solid android:color="#00000000" />
+</shape>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.phone.uin.widget.RecordVideoSurfaceView
+        android:id="@+id/movieRecordSurfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/showImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/x"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/ll"
+        layout="@layout/record_top_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/photo_auxiliaryline" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/public_height_100"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Chronometer
+                android:id="@+id/chronometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:format="%s"
+                android:gravity="center"
+                android:padding="@dimen/dimen_10"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_14" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/public_title_height"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dimen_10"
+                android:layout_marginRight="@dimen/dimen_10"
+                android:layout_weight="1"
+                android:background="@drawable/complete_btn_selector"
+                android:gravity="center"
+                android:padding="@dimen/dimen_05"
+                android:text="@string/confirm_submit"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_16"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnTakeAgain"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/public_title_height"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dimen_10"
+                android:layout_marginRight="@dimen/dimen_10"
+                android:layout_weight="1"
+                android:background="@drawable/complete_btn_selector"
+                android:padding="@dimen/dimen_05"
+                android:text="@string/tak_again"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_16"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/dimen_40"
+        android:background="@color/black" />
+</RelativeLayout>

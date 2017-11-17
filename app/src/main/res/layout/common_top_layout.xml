@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TitleStyle">
+
+    <ImageView
+        android:id="@+id/arrowsBack"
+        style="@style/left_title_style"
+        android:src="@drawable/arrows_back" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/titleTextStyle"
+        android:text="这是标题" />
+
+</RelativeLayout>
+
+
+

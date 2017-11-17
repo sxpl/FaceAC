@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">FaceAC</string>
+    <string name="shoot_id_card_front">拍摄身份证正面</string>
+    <string name="id_card_front">身份证正面</string>
+    <string name="shoot_id_card_side">拍摄身份证反面</string>
+    <string name="id_card_side">身份证反面</string>
+    <string name="immortal_approve_tips">根据工业和信息化部下发的《电话用户真实身份信息登记规定》的要求,优音通信遵守国家法律法规,做好实名登记。</string>
+    <string name="go_immortal_txt">去实人登记</string>
+    <string name="immortal_title">实人认证</string>
+    <string name="face_verify">人脸校验</string>
+    <string name="face_verify_tips">请正对手机,保证光源充足</string>
+    <string name="start_shoot">开始拍摄</string>
+    <string name="start_shoot_tips"><Data><![CDATA[根据提示左右摇头、点头,请<font color="#ed5f00">本人亲自完成</font>,感谢配合]]></Data></string>
+    <string name="input_id_card_info">请填写身份证上的信息</string>
+    <string name="user_name">姓名</string>
+    <string name="id_card_number">身份证号码</string>
+    <string name="submit">确定提交</string>
+    <string name="id_card_confirm">身份认证</string>
+    <string name="hand_id_card_tips">请拍摄/上传手持身份证照片,注意证件清晰</string>
+    <string name="hand_id_card_title">手持证件照</string>
+    <string name="shoot_tips_1">开始拍摄</string>
+    <string name="shoot_tips_2">左右摇头</string>
+    <string name="shoot_tips_3">点头</string>
+    <string name="shoot_tips_4">拍摄完成</string>
+    <string name="time_tips">00:00</string>
+    <string name="confirm_submit">确认上传</string>
+    <string name="tak_again">重新拍摄</string>
+    <string name="app_id">5935273f</string>
+    <string name="input_name_hint">姓名</string>
+    <string name="input_id_card_hint">身份证号码</string>
+    <string name="toast_app_crash">应用遇到问题，即将关闭，请重新开启。</string>
+    <string name="rationale_camera">此应用需要访问你的照相机权限.</string>
+    <string name="rationale_audio">此应用需要访问你的录音权限.</string>
+    <string name="permission_camera_rationale">应用需要得到相机权限才能显示相机预览。</string>
+    <string name="permission_camera_denied">请求相机权限被拒绝,如果要访问相机，则必须授予该权限。</string>
+    <string name="permission_camera_never_askagain">请求相机权限被拒绝，并不再询问。</string>
+</resources>

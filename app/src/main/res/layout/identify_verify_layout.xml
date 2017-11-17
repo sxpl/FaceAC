@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/lltop"
+        layout="@layout/common_top_layout" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/submit"
+        android:layout_below="@id/lltop"
+        android:layout_marginBottom="@dimen/dimen_10"
+        android:fadingEdge="none"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/scrollview"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/input_id_card_info"
+                android:gravity="center|left"
+                android:paddingBottom="@dimen/dimen_06"
+                android:paddingLeft="@dimen/dimen_10"
+                android:paddingTop="@dimen/dimen_06"
+                android:text="@string/input_id_card_info"
+                android:textColor="@color/bg_color"
+                android:textSize="@dimen/size_16" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_07">
+
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_25"
+                    android:background="@null"
+                    android:hint="@string/input_name_hint"
+                    android:paddingLeft="@dimen/dimen_10"
+                    android:textColor="@color/bg_color"
+                    android:textColorHint="@color/text_hint_color"
+                    android:textSize="@dimen/size_16" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_005"
+                android:background="@color/horizontal_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_07">
+
+                <EditText
+                    android:id="@+id/etIdCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_25"
+                    android:background="@null"
+                    android:hint="@string/input_id_card_hint"
+                    android:paddingLeft="@dimen/dimen_10"
+                    android:textColor="@color/bg_color"
+                    android:textColorHint="@color/text_hint_color"
+                    android:textSize="@dimen/size_16" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_005"
+                android:background="@color/horizontal_line" />
+
+            <RelativeLayout
+                android:id="@+id/ivIdCardFront"
+                android:layout_width="320dip"
+                android:layout_height="170dip"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen_10"
+                android:background="@drawable/idcard_example_front">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen_08"
+                    android:text="@string/id_card_front"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimen_16" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/linearLayoutShowFront"
+                android:layout_width="320dip"
+                android:layout_height="170dip"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen_10"
+                android:background="@drawable/complete_take_pic_selector"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_07"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/showIvIdCardFront"
+                    android:layout_width="260dip"
+                    android:layout_height="170dip"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="@dimen/dimen_10"
+                    android:padding="@dimen/dimen_03"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/test" />
+
+                <ImageView
+                    android:id="@+id/imageViewFront"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="@dimen/dimen_03"
+                    android:layout_marginLeft="@dimen/dimen_15"
+                    android:layout_marginRight="@dimen/dimen_03"
+                    android:paddingLeft="@dimen/dimen_10"
+                    android:src="@drawable/authentication_example_ok" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/ivIdCardBack"
+                android:layout_width="320dip"
+                android:layout_height="170dip"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen_10"
+                android:background="@drawable/idcard_example_front">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen_08"
+                    android:text="@string/id_card_side"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimen_16" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/linearLayoutShowBack"
+                android:layout_width="320dip"
+                android:layout_height="170dip"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen_10"
+                android:background="@drawable/complete_take_pic_selector"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_07"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/showIvIdCardBack"
+                    android:layout_width="260dip"
+                    android:layout_height="170dip"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="@dimen/dimen_10"
+                    android:padding="@dimen/dimen_03"
+                    android:scaleType="centerInside" />
+
+                <ImageView
+                    android:id="@+id/imageViewBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="@dimen/dimen_03"
+                    android:layout_marginLeft="@dimen/dimen_10"
+                    android:layout_marginRight="@dimen/dimen_03"
+                    android:paddingLeft="@dimen/dimen_10"
+                    android:src="@drawable/authentication_example_ok" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/public_title_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dimen_15"
+        android:layout_marginLeft="@dimen/dimen_10"
+        android:layout_marginRight="@dimen/dimen_10"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:background="@drawable/complete_btn_selector"
+        android:enabled="false"
+        android:padding="@dimen/dimen_05"
+        android:text="@string/submit"
+        android:textColor="@color/submit_color"
+        android:textSize="@dimen/size_16" />
+
+</RelativeLayout>

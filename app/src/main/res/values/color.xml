@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange">#FDAD00</color>
+    <color name="black">#191919</color>
+    <color name="white">#ffffff</color>
+    <color name="submit_color">#4dffffff</color>
+    <color name="title_color">#3d3d3d</color>
+    <color name="bg_color">#3d3d3d</color>
+    <color name="text_hint_color">#747474</color>
+    <color name="bg_ed5f00">#ed5f00</color>
+    <color name="input_id_card_info">#f0f0f0</color>
+    <color name="horizontal_line">#eeeeee</color>
+    <color name="transparent">#55000000</color>
+</resources>

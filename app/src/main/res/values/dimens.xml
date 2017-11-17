@@ -1,0 +1,60 @@
+<resources>
+    <!--  统一样式 start -->
+    <dimen name="size_06">6sp</dimen>
+    <dimen name="size_07">7sp</dimen>
+    <dimen name="size_08">8sp</dimen>
+    <dimen name="size_09">9sp</dimen>
+    <dimen name="size_10">10sp</dimen>
+    <dimen name="size_11">11sp</dimen>
+    <dimen name="size_12">12sp</dimen>
+    <dimen name="size_13">13sp</dimen>
+    <dimen name="size_14">14sp</dimen>
+    <dimen name="size_15">15sp</dimen>
+    <dimen name="size_16">16sp</dimen>
+    <dimen name="size_17">17sp</dimen>
+    <dimen name="size_18">18sp</dimen>
+    <dimen name="size_19">19sp</dimen>
+    <dimen name="size_20">20sp</dimen>
+    <dimen name="size_21">21sp</dimen>
+    <dimen name="size_22">22sp</dimen>
+    <dimen name="size_23">23sp</dimen>
+    <dimen name="size_24">24sp</dimen>
+    <dimen name="size_25">25sp</dimen>
+    <dimen name="size_26">26sp</dimen>
+    <dimen name="size_27">27sp</dimen>
+    <dimen name="size_28">28sp</dimen>
+    <dimen name="size_29">29sp</dimen>
+    <dimen name="size_30">30sp</dimen>
+    <dimen name="size_31">31sp</dimen>
+    <dimen name="size_32">32sp</dimen>
+
+    <dimen name="dimen_005">0.5dp</dimen>
+    <dimen name="dimen_01">1dp</dimen>
+    <dimen name="dimen_02">2dp</dimen>
+    <dimen name="dimen_03">3dp</dimen>
+    <dimen name="dimen_04">4dp</dimen>
+    <dimen name="dimen_05">5dp</dimen>
+    <dimen name="dimen_06">6dp</dimen>
+    <dimen name="dimen_07">7dp</dimen>
+    <dimen name="dimen_08">8dp</dimen>
+    <dimen name="dimen_09">9dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_11">11dp</dimen>
+    <dimen name="dimen_12">12dp</dimen>
+    <dimen name="dimen_13">13dp</dimen>
+    <dimen name="dimen_14">14dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_16">15dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_25">25dp</dimen>
+    <dimen name="dimen_30">30dp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+
+    <!-- 标题高度 -->
+    <dimen name="public_title_height">46dp</dimen>
+    <dimen name="public_common_title_height">40dp</dimen>
+    <dimen name="public_height">80dp</dimen>
+    <dimen name="public_height_100">120dp</dimen>
+    <dimen name="public_input_height">30dp</dimen>
+
+</resources>
